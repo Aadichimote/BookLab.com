@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+   
+}
+.card{
+    background:#c5beb761;
+    height: 35vw;
+    width: 27vw;
+    border: 5px solid black;
+}
+.books_card{
+    background: #08060499;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.card_pad{
+    margin: 1vw 3vw;
+}
+.card img{
+    padding: 8px;
+    height: 28vw;
+    width: 26.5vw;
+}
+.card p{
+    font-size: 2vw;
+    height: 49px;
+    width: auto;
+    padding: 0px 12px;
+  
+}
+.card button{
+    border: 2px solid black;
+    border-radius: 2px;
+    background: #3f4153;
+    height: 2.5vw;
+    width: 7vw;
+    margin: -1px 10vw;
+    
+}
+
+
+
+
+
