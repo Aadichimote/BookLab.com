@@ -13,7 +13,7 @@ body{
     border: 5px solid black;
 }
 .books_card{
-    background: #08060499;
+    background:#e2dbd399;
     display: flex;
     justify-content: space-around;
     align-items: start;
@@ -29,7 +29,7 @@ body{
     width: 26.5vw;
 }
 .card p{
-    font-size: 2vw;
+    font-size: 1.5vw;
     height: 49px;
     width: auto;
     padding: 0px 12px;
@@ -37,15 +37,127 @@ body{
 }
 .card button{
     border: 2px solid black;
-    border-radius: 2px;
-    background: #3f4153;
+    border-radius: 10px;
+    background: #dfe1ed;
     height: 2.5vw;
     width: 7vw;
-    margin: -1px 10vw;
+    margin: 40px 10vw;
     
 }
+.card button:hover{
+    cursor: pointer;
+    background: #34353b;
+}
+
+@media only screen and (max-width: 2380px) {
+    .card button{
+        border: 2px solid black;
+        border-radius: 10px;
+        background: #dfe1ed;
+        height: 2.5vw;
+        width: 7vw;
+        margin:20px 10vw;
+        
+    }
+}
+@media only screen and (max-width: 1780px) {
+    .card button{
+        border: 2px solid black;
+        border-radius: 10px;
+        background: #dfe1ed;
+        height: 2.5vw;
+        width: 7vw;
+        margin: 10px 10vw;
+        
+    }
+    .card p{
+        font-size: 1.5vw;
+        height: 31px;
+        width: auto;
+        padding: 0px 12px;
+      
+}}
+@media only screen and (max-width: 1250px) {
+    .card button{
+        border: 2px solid black;
+        border-radius: 10px;
+        background: #dfe1ed;
+        height: 2.5vw;
+        width: 7vw;
+        margin: 5px 10vw;
+        
+    }
+    .card p{
+        font-size: 1.5vw;
+        height: 25px;
+        width: auto;
+        padding: 0px 12px;
+    }
+}
+@media only screen and (max-width: 865px) {
+    .books_card{
+        background:#e2dbd399;
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+    .card{
+    background: #c5beb761;
+    height: 40vw;
+    width: 30vw;
+    border: 5px solid black;
+    }
+    .card img{
+        padding: 8px;
+        height: 31vw;
+        width: 29.5vw;
+    }
+    .card button{
+        border: 2px solid black;
+        border-radius: 10px;
+        background: #dfe1ed;
+        height: 3.5vw;
+        width: 10vw;
+        margin: -25px 10vw;
+        
+    }
+    .card p{
+        font-size: 1.5vw;
+        height: 25px;
+        width: auto;
+        padding: 0px 12px;
+    }
 
 
+}
+@media only screen and (max-width: 600px) {
+    .card{
+        background:#c5beb761;
+        height: 67vw;
+        width: 45vw;
+        border: 5px solid black;
+    }
+    .card img{
+        padding: 8px;
+        height: 46vw;
+        width: 43.5vw;
+    }
+    .card p{
+        font-size: 3vw;
+        height: 25px;
+        width: auto;
+        padding: 0px 12px;
+    }
+    .card button {
+        font-size: 3vw;
+        border: 2px solid black;
+        border-radius: 10px;
+        background: #dfe1ed;
+        height: 6.5vw;
+        width: 18vw;
+        margin: 7px 10vw;
+    }
 
-
-
+}   

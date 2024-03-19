@@ -201,7 +201,7 @@ div.scroll-container {
 .categories p{
     font-size: xx-large;
 }
-.About_content{height: 500px;
+.About_content{height: 26VW;
     background: #000000b5;
     margin: auto;
     justify-content: space-around;
@@ -212,7 +212,7 @@ display: flex;
 justify-content: space-around;
 }
 .About_content ul li{
-    font-size: 20px;
+    font-size: 2VW;
     color: rgba(208, 207, 206, 0.729);
     padding: 15px;
     justify-content: start;
@@ -232,11 +232,35 @@ justify-content: space-around;
     
 }
 .info{
+    padding: 50px;
     align-items: center;
     display: grid;
     justify-content: center;
     color: rgba(208, 207, 206, 0.729);
 }
+.info p{
+    padding: 10px;
+}
+.info p a{
+    color: rgba(208, 207, 206, 0.729);
+}
+.info p a:hover{
+    color: rgba(23, 21, 19, 0.729);
+}
+.Copyright{
+    margin: -15PX;
+}
+@media only screen and (max-width: 2700px) {
+    .About_content {
+        height: 30VW;
+        background: #000000b5;
+        margin: auto;
+        justify-content: space-around;
+        font-size: 1.5vw;
+    }
+
+}
+
 @media only screen and (max-width: 1560px) {
     .nav_item ul li{
         list-style-type: none;
@@ -250,7 +274,33 @@ justify-content: space-around;
         padding: 0 15px;
     }
 }
-
+@media only screen and (max-width: 1980px) {
+    .About_content {
+        height: 32VW;
+        background: #000000b5;
+        margin: auto;
+        justify-content: space-around;
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .About_content {
+        height: 35VW;
+        background: #000000b5;
+        margin: auto;
+        justify-content: space-around;
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .About_content {
+        height: 37VW;
+        background: #000000b5;
+        margin: auto;
+        justify-content: space-around;
+        font-size: 1.5vw;
+    }
+}
 @media only screen and (max-width: 1199px) {
     .nav_item ul {
    
@@ -295,6 +345,32 @@ justify-content: space-around;
     .h-nav{
         height: 314px;
     }
+    .About_content {
+        height: 42VW;
+        background: #000000b5;
+        margin: auto;
+        justify-content: space-around;
+        font-size: 1.5vw;
+    }
+
+}
+@media only screen and (max-width: 1000px) {
+    .About_content {
+        height: 47VW;
+        background: #000000b5;
+        margin: auto;
+        justify-content: space-around;
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .About_content {
+        height: 52VW;
+        background: #000000b5;
+        margin: auto;
+        justify-content: space-around;
+        font-size: 1.5vw;
+    }
 }
 @media only screen and (max-width: 781px) {
     header{
@@ -319,6 +395,13 @@ justify-content: space-around;
     div.scroll-container {
         width: 102%;
     }
+    .About_content {
+        height: 58VW;
+        background: #000000b5;
+        margin: auto;
+        justify-content: space-around;
+        font-size: 1.5vw;
+    }
 
 
 }
@@ -335,8 +418,24 @@ justify-content: space-around;
     .h-nav{
         height: 465px;
     }
+    .About_content {
+        height: 70VW;
+        background: #000000b5;
+        margin: auto;
+        justify-content: space-around;
+        font-size: 1.5vw;
+    }
 
 }
+@media only screen and (max-width: 490px) {
+    .About_content {
+        height: 100VW;
+        background: #000000b5;
+        margin: auto;
+        justify-content: space-around;
+        font-size: 1.5vw;
+    }
 
 
 
+}
