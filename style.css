@@ -201,7 +201,7 @@ div.scroll-container {
 .categories p{
     font-size: xx-large;
 }
-.About_content{height: 26VW;
+.About_content{height: 41VW;
     background: #000000b5;
     margin: auto;
     justify-content: space-around;
@@ -232,7 +232,7 @@ justify-content: space-around;
     
 }
 .info{
-    padding: 50px;
+    padding: 10px;
     align-items: center;
     display: grid;
     justify-content: center;
@@ -240,6 +240,7 @@ justify-content: space-around;
 }
 .info p{
     padding: 10px;
+    font-size: 2vw;
 }
 .info p a{
     color: rgba(208, 207, 206, 0.729);
@@ -252,7 +253,7 @@ justify-content: space-around;
 }
 @media only screen and (max-width: 2700px) {
     .About_content {
-        height: 30VW;
+        height: 39VW;
         background: #000000b5;
         margin: auto;
         justify-content: space-around;
@@ -269,6 +270,13 @@ justify-content: space-around;
 }
 
 @media only screen and (max-width: 1313px) {
+    .About_content {
+        height: 39VW;
+        background: #000000b5;
+        margin: auto;
+        justify-content: space-around;
+        font-size: 1.5vw;
+    }
     .nav_item ul li{
         list-style-type: none;
         padding: 0 15px;
@@ -276,7 +284,7 @@ justify-content: space-around;
 }
 @media only screen and (max-width: 1980px) {
     .About_content {
-        height: 32VW;
+        height: 40VW;
         background: #000000b5;
         margin: auto;
         justify-content: space-around;
@@ -285,7 +293,7 @@ justify-content: space-around;
 }
 @media only screen and (max-width: 1600px) {
     .About_content {
-        height: 35VW;
+        height: 50VW;
         background: #000000b5;
         margin: auto;
         justify-content: space-around;
@@ -346,7 +354,7 @@ justify-content: space-around;
         height: 314px;
     }
     .About_content {
-        height: 42VW;
+        height: 46VW;
         background: #000000b5;
         margin: auto;
         justify-content: space-around;
@@ -356,7 +364,7 @@ justify-content: space-around;
 }
 @media only screen and (max-width: 1000px) {
     .About_content {
-        height: 47VW;
+        height: 55VW;
         background: #000000b5;
         margin: auto;
         justify-content: space-around;

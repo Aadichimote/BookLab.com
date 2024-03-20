@@ -1,0 +1,99 @@
+login{
+    display: block;
+    background-color: black;
+    height: 60vw;
+    width: 100%;
+    box-shadow: 5px;
+}
+.login_signin{
+    background: linear-gradient(45deg, #b619de, #46d2dc, #db0808);
+    height: 45vw;
+    width: 70%;
+    margin: 3px 15vw;
+    border-radius: 5px;
+}
+.input_form{
+    padding: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 3vw;
+}
+.input_form p {
+    font-size: 1.5vw;
+}
+.input_form  input{
+    margin: 2px 8vw;
+    padding: 0 21px;
+    height: 2vw;
+    width: 25vw;
+    border: none;
+
+}
+.two_button{
+    margin-top: -5vw;
+    display: flex;
+    justify-content: space-around;
+ 
+
+}
+.two_button input{
+    height: 2.5vw;
+    width: 5vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #db080800;
+
+}
+@media only screen and (max-width: 956px) {
+    login {
+        display: block;
+        background-color: black;
+        height: 164vw;
+        width: 101%;
+        box-shadow: 5px;
+    }
+    .two_button input {
+        height: 3.5vw;
+        width: 15vw;
+        border: 1px solid black;
+        border-radius: 5px;
+        background: #db080800;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    login {
+        display: block;
+        background-color: black;
+        height: 95vw;
+        width: 100%;
+        box-shadow: 5px;
+}
+.login_signin {
+    background: linear-gradient(45deg, #b619de, #46d2dc, #db0808);
+    height: 90vw;
+    width: 70%;
+    margin: 3px 15vw;
+    border-radius: 5px;
+}
+.input_form p {
+    font-size: 3.5vw;
+}
+.input_form input {
+    margin: 2px 1vw;
+    padding: 0 21px;
+    height: 5vw;
+    width: 35vw;
+    border: none;
+}
+.two_button input {
+    height: 7.5vw;
+    width: 18vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #db080800;
+}
+}
