@@ -48,7 +48,9 @@ login{
     background: #db080800;
 
 }
-
+.two_button input:hover{
+    cursor: pointer;;
+}
 @media only screen and (max-width: 956px) {
     login {
         display: block;
