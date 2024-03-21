@@ -145,7 +145,7 @@ div.scroll-container {
 }
 .first-content{
     position: relative;
-    left: 25vh;
+    left: 35vh;
 
 }
 .content{
@@ -155,15 +155,17 @@ div.scroll-container {
 }
 
 .space{
-    padding-bottom: 100px;
-    color: #451275;
+    padding-bottom: 125px;
+    color: #000000bf;
 }
 .second-content{
     position: relative;
-    top: 60px;
-    right: 15vh;
+    top: 80px;
+    right: 20vh;
 }
-.categories{    width: 190px;
+.categories{  
+    background: bisque;
+    width: 190px;
     height: 35px;
     display: flex;
     justify-content: center;
@@ -188,15 +190,16 @@ div.scroll-container {
     margin-left: 164px;
     margin-top: 12px;
 }
-.About{
-    width: 190px;
-    height: 35px;
+.About {
+    background: bisque;
+    width: 189px;
+    height: 7px;
     display: flex;
     justify-content: center;
-    padding: 41px;
+    padding: 30px;
     font-size: 25px;
     margin: auto;
-    margin-top: -29px;
+    margin-top: 12px;
 }
 .categories p{
     font-size: xx-large;
@@ -232,7 +235,7 @@ justify-content: space-around;
     
 }
 .info{
-    padding: 10px;
+    padding: 30px;
     align-items: center;
     display: grid;
     justify-content: center;

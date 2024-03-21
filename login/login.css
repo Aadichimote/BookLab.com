@@ -1,12 +1,13 @@
 login{
-    display: block;
-    background-color: black;
+    display: block; 
+    background: linear-gradient(45deg, #db19decd, #71e0e8, #c36a6a);
     height: 60vw;
     width: 100%;
     box-shadow: 5px;
 }
 .login_signin{
-    background: linear-gradient(45deg, #b619de, #46d2dc, #db0808);
+    border: 2PX solid rgba(0, 0, 0, 0.338);
+    background: linear-gradient(45deg, #56056a17, #6fa7ab61, #c36a6a87);
     height: 45vw;
     width: 70%;
     margin: 3px 15vw;
@@ -46,6 +47,9 @@ login{
     border-radius: 5px;
     background: #db080800;
 
+}
+.two_button input:hover{
+    cursor: pointer;;
 }
 @media only screen and (max-width: 956px) {
     login {
