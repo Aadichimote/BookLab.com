@@ -148,6 +148,9 @@ div.scroll-container {
     left: 35vh;
 
 }
+.content b{
+    font-size: 2vw;
+}
 .content{
     display: flex;
     justify-content: space-around;
@@ -466,6 +469,9 @@ justify-content: space-around;
         position: relative;
         top: 34px;
         right: 9vh;
+    }
+    .service b{
+        font-size: 6vw;
     }
 
 
