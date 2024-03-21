@@ -446,6 +446,27 @@ justify-content: space-around;
         justify-content: space-around;
         font-size: 1.5vw;
     }
+    .first-content{
+        position: relative;
+        left: 15vh;
+    
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.5vw;
+    }
+    
+    .space{
+        font-size: 2vw;
+        padding-bottom: 59px;
+        color: #000000bf;
+    }
+    .second-content{
+        position: relative;
+        top: 34px;
+        right: 9vh;
+    }
 
 
 
